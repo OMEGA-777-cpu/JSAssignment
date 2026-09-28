@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,1fr);
+    align-items: center ;
+}
+
+.head{
+    align-self: center;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: x-large;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.box{
+    width: 7em;
+    height: 7em;
+    border: solid 2px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    padding: 1rem;
+    margin: 1rem;
+    justify-self: center;
+    justify-content: space-around;
+}
+
+.input #name{
+    border-radius: 3px;
+    padding: 0.3em;
+}
+.input #button{
+    padding: 0.5em;
+    background-color: grey;
+}
+
+.input #name:focus{
+    outline: solid;
+    border-color: black;
+}
